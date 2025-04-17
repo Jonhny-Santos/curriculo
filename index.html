@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Currículo de Jonhny Dias Dos Santos</title>
+  <style>
+    :root {
+      --bg-color: #f5f5f5;
+      --text-color: #222;
+      --accent: #2e7d32;
+    }
+    [data-theme="dark"] {
+      --bg-color: #1f1f1f;
+      --text-color: #f5f5f5;
+      --accent: #66bb6a;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      transition: background 0.3s, color 0.3s;
+    }
+
+    header {
+      background: var(--accent);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      position: relative;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    h2 {
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 0.5rem;
+      margin-top: 2rem;
+    }
+
+    .section {
+      margin-bottom: 2rem;
+    }
+
+    .toggle-theme, .download-btn {
+      position: absolute;
+      top: 1rem;
+      background: none;
+      border: 1px solid white;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      color: white;
+      cursor: pointer;
+    }
+
+    .toggle-theme {
+      right: 1rem;
+    }
+
+    .download-btn {
+      left: 1rem;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    ul li {
+      margin-bottom: 0.6rem;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+    }
+
+    form button {
+      background: var(--accent);
+      color: white;
+      border: none;
+      padding: 0.7rem 1.2rem;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .social {
+      margin-top: 1rem;
+      text-align: center;
+    }
+
+    .social a {
+      color: var(--text-color);
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    @media print {
+      .toggle-theme, .download-btn, form, .social {
+        display: none !important;
+      }
+      body {
+        background: white !important;
+        color: black !important;
+      }
+    }
+  </style>
+</head>
+<body data-theme="light">
+<header>
+  <button class="download-btn" onclick="window.print()" type="button">📄 Baixar PDF</button>
+  <button class="toggle-theme" onclick="toggleTheme()">🌙 Tema</button>
+  <h1>Jonhny Dias Dos Santos</h1>
+  <p>Especialista em Segurança da Informação | IAM | GRC | CLOUD</p>
+  <p>
+    📧 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jonhnydias@gmail.com" target="_blank" style="color: white; text-decoration: underline;">
+      jonhnydias@gmail.com
+    </a> &nbsp; | &nbsp;
+    💬 <a href="https://wa.me/5511911363842" target="_blank" style="color: white; text-decoration: underline;">
+      WhatsApp: (11) 91136-3842
+    </a>
+  </p>
+</header>
+
+<div class="container">
+  <section class="section">
+    <h2>Resumo</h2>
+    <p>
+      Profissional com sólida experiência em Gestão de Identidades e Acessos (IAM), integrando práticas de segurança à estratégia corporativa e conformidade regulatória. Atuação em Governança, Riscos e Conformidade (GRC), com foco em políticas, auditorias e normativas como ISO 27001, GDPR e LGPD. Familiaridade com frameworks como NIST, CIS Controls, COBIT e ITIL.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2>Experiência</h2>
+    <ul>
+      <li>
+        <strong>Global Hitss Brasil</strong> – <em>Analista de Segurança da Informação</em>
+        <span style="float:right;"><strong>Set/2024 – atual</strong></span><br>
+        <ul>
+          <li>Implantação de soluções IAM para mitigação de riscos cibernéticos.</li>
+          <li>Administração de usuários e objetos no Active Directory e Azure AD.</li>
+          <li>Gestão e escopo de GPOs no Windows Server.</li>
+          <li>Implementação de ACLs para controle de acesso.</li>
+          <li>Análise de logs de auditoria do AD.</li>
+          <li>Integração e sincronização via Azure AD Connect.</li>
+          <li>Uso do BeyondTrust (PAM) para gestão de acessos privilegiados.</li>
+          <li>Auditoria de contas inativas e investigações de IAM.</li>
+          <li>Treinamentos e campanhas de conscientização em IAM.</li>
+          <li>Experiência com IGA, IdPs, SAML, OAuth2, LDAPS, OpenID.</li>
+          <li>Conhecimento em AWS IAM, GCP e automações com Python, Bash e PowerShell.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Meta</strong> – <em>Analista de Segurança da Informação</em>
+        <span style="float:right;"><strong>Dez/2021 – Mai/2024</strong></span><br>
+        <ul>
+          <li>Atuação em GRC e IAM no SGSI.</li>
+          <li>Identificação de vulnerabilidades e mitigação de riscos.</li>
+          <li>Garantia de conformidade de projetos com normas internas.</li>
+          <li>Preparação para auditorias internas e externas.</li>
+          <li>Campanhas de conscientização e revisão de políticas.</li>
+          <li>Uso de DLP, criptografia e filtros de conteúdo.</li>
+          <li>Análise de vulnerabilidades e desenvolvimento de planos corretivos.</li>
+          <li>Experiência com frameworks ISO 27001, NIST, COBIT, CIS.</li>
+          <li>Uso de SailPoint e Jira.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Experiência Adicional</strong> – <em>Cloud, Automação e Compliance</em><br>
+        <ul>
+          <li>Atuação com ambientes <strong>AWS, Azure e GCP</strong>, aplicando boas práticas de segurança em nuvem.</li>
+          <li>Automação de infraestrutura com <strong>Terraform</strong> para provisionamento seguro e ágil.</li>
+          <li>Iniciativas voltadas à conformidade com normas como <strong>ISO 27001</strong> e <strong>LGPD</strong>.</li>
+          <li>Perfil colaborativo, atuando como ponte entre times técnicos e estratégicos.</li>
+          <li>Foco em <strong>mitigação de riscos</strong> e <strong>eficiência operacional</strong> nas operações de segurança.</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Habilidades</h2>
+    <ul>
+      <li>ISO/IEC 27001</li>
+      <li>LGPD & GDPR</li>
+      <li>Gestão de riscos</li>
+      <li>Ferramentas GRC</li>
+      <li>Políticas de Segurança</li>
+      <li>NIST, CIS, COBIT, ITIL</li>
+      <li>IAM e PAM</li>
+      <li>Azure AD, Active Directory, BeyondTrust</li>
+      <li>Cloud</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Contato</h2>
+    <form action="https://formspree.io/f/mvgkyokv" method="POST">
+      <label for="nome">Nome:</label>
+      <input type="text" name="nome" required />
+      <label for="email">Email:</label>
+      <input type="email" name="email" required />
+      <label for="mensagem">Mensagem:</label>
+      <textarea name="mensagem" rows="5" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <div class="social">
+    <a href="https://www.linkedin.com/in/jonhnysantos/" target="_blank">LinkedIn</a>
+    <a href="https://github.com/JonhnyDias" target="_blank">GitHub</a>
+  </div>
+</div>
+
+<script>
+  function toggleTheme() {
+    const body = document.body;
+    const currentTheme = body.getAttribute("data-theme");
+    body.setAttribute("data-theme", currentTheme === "dark" ? "light" : "dark");
+  }
+</script>
+</body>
+</html>
